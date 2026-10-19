@@ -1,0 +1,4 @@
+# dsh-plugin-labview-tools profile registration.
+- insert:
+    - id: labview-tools
+      name: 'dsh-plugin-labview-tools'

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "LabVIEW window automation",
+    "description": "Enumerate windows of a running process, drive clicks/keys/clipboard, and capture screenshots."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "dsh-plugin-labview-tools",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LabVIEW GUI automation for DSH: enumerate windows, drive clicks/keys/clipboard, and capture screenshots of a running LabVIEW (or any Win32) window.",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "payload/lvctl.ps1",
+    "payload/lvbatch.ps1",
+    "payload/lvenum.ps1",
+    "payload/lvprint.ps1",
+    "payload/lvshot.ps1",
+    "README.md"
+  ],
+  "engines": {
+    "dsh": ">=0.1.1-0 <0.3.0"
+  },
+  "icon": "./icon.svg",
+  "author": "nnma12358 (https://github.com/nnma12358)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnma12358/dsh-plugin-labview-tools.git"
+  },
+  "homepage": "https://github.com/nnma12358/dsh-plugin-labview-tools#readme",
+  "bugs": {
+    "url": "https://github.com/nnma12358/dsh-plugin-labview-tools/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness"
+  ]
+}
